@@ -3,7 +3,7 @@ from azure.ai.projects import AIProjectClient
 from azure.identity import DefaultAzureCredential
 from azure.ai.agents.models import ListSortOrder
 
-# Read config from environment variables (do NOT hard-code in public repos)
+# Read config from environment variables
 PROJECT_ENDPOINT = os.environ["AZURE_AI_PROJECT_ENDPOINT"]  # e.g. https://<resource>.services.ai.azure.com/api/projects/<project>
 AGENT_ID = os.environ["AZURE_AI_AGENT_ID"]                  # e.g. asst_...
 
