@@ -1,10 +1,6 @@
 # Hotel Assistant AI Agent — Key Settings Guide  
 *(Azure AI Foundry)*
 
-A practical, copy-paste-friendly checklist for configuring a production-ready hotel concierge/chat agent in Azure AI Foundry. Use it when you create a new Agent (or a Prompt Flow-backed agent) and when promoting from **Dev → Staging → Prod**.
-
----
-
 ## 1) Project & Resource Setup
 
 **Goal:** Clean separation of environments; secure connections to data; predictable deployments.
